@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cart-container">
+        <div class="table-wrapper">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="cart-items">
+                    <!-- Products will appear here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="summary">
+            <p>Subtotal: Rs. <span id="subtotal">0</span></p>
+
+            <p>Discount: Rs. <span id="discount">0</span></p>
+
+            <h3>Amount Payable: Rs. <span id="final-amount">0</span></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
